@@ -1,0 +1,17 @@
+.mes-box {
+    border: 1px solid black;
+    width: 500px;
+    height: 50px;
+    margin: 10px 5px;
+}
+
+.mes-box__closure {
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: -15px;
+    margin-top: -15px;
+    background-color: #faf7f2;
+}

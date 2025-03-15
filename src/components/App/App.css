@@ -21,3 +21,15 @@
   text-transform: uppercase;
   font-size: 1.6rem;
 }
+
+.app-body__message-box {
+  /* border: 1px solid black; */
+  width: 100%;
+  box-sizing: border-box;
+  overflow-y: auto;
+  max-height: 75vh;
+  padding: 1% 2%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
