@@ -7,7 +7,11 @@ import './App.css'
 function App() {
  
   return (
-    <></>
+    <div className="app-body">
+      <div className="app-body__header">
+        <h1 className="app-body__header__title">CRUD</h1>
+      </div>
+    </div>
   )
 }
 
