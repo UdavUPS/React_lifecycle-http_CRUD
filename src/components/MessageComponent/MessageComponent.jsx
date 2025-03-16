@@ -5,9 +5,12 @@ const delSimbol = (<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width
 
 /**
  * Компонент вывода сообщений
+ *
+ * @param {string} messageText передается текст сообщения
+ * 
  */
 
-export function MessageComponent ({onClick}) {
+export function MessageComponent ({messageText, onClick}) {
 
     function doClose(e) {
         onClick(e);
@@ -16,6 +19,7 @@ export function MessageComponent ({onClick}) {
     return (
         <div className="mes-box">
             <div className="mes-box__closure" onClick={doClose}><p className="delSim" >{delSimbol}</p></div>
+            <div className="mes-box__text">{messageText}</div>
         </div>
     )
 }
