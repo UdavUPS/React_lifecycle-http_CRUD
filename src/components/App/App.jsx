@@ -35,10 +35,7 @@ function App() {
       messageBlock = messageBlock.parentElement;
     }
     messageBlock = messageBlock.parentElement;
-    /*console.log(messageBlock);
-     console.log(messageBlock.id);*/
-    xmlDel(messageBlock.id) 
-   /*  fetchNotes(); */
+    xmlDel(messageBlock.id);
   }
 
   // Функция принудительного обновления
