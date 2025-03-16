@@ -44,3 +44,13 @@
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
 }
+
+.refSimbol {
+  border: 1px solid black;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: #faf7f2;
+  cursor: pointer;
+}

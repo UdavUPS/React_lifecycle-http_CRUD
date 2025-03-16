@@ -11,9 +11,13 @@ export function InputMessage({forPost}) {
 
     function postMessage() {
         let textAr = inputRef.current;
-        console.log(textAr.value);
-        forPost({content: textAr.value});
-        textAr.value = '';
+        if (textAr.value !== '') {
+            forPost({content: textAr.value});
+            textAr.value = '';
+        } else {
+            alert('Текст не введен!')
+        }
+
     }
 
     return (

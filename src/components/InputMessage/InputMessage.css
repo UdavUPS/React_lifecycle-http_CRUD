@@ -14,7 +14,18 @@
  /*    margin-left: auto;
     margin-top: 7%; */
     margin: -45px 2px 0 auto;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgb(0, 0, 0);
 }
+
+.iput-box__post:hover{
+    box-shadow: 0 0 15px rgb(0, 0, 0);
+}
+
+.iput-box__post:active{
+    box-shadow: 0 0 0 rgb(0, 0, 0);
+}
+
 .iput-box__input {
     width: calc(99% - 42px);
     height: 95px;
